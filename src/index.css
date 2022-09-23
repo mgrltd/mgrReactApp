@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+  background-color: antiquewhite;
+  height: 880px;
+  padding: 10px;
+}
+.head{
+  text-align: center;
+  background-color: aqua;
+  height: 60px;
+}
+.body{
+  background-color: azure;
+  height: 750px;
+  width: 100%;
+}
+.bodyleft{
+  background-color: rgb(15, 116, 69);
+  float: left;
+  width: 10%;
+  height: 750px;
+}
+.bodyright{
+  background-color: blanchedalmond;
+  float: left;
+  width: 90%;
+  padding-bottom: 50px;
+}
+.main{
+  text-align: center;
+  padding: 10%;
+}
+.link{
+  background-color: greenyellow;
+  padding: 10%;
+}
+.gridmain{
+  display: grid;
+  grid:auto/auto auto auto auto;
+  grid-gap: 10%;
+  padding: 40px;
+ 
+}
+.grid{
+  background-color: rgb(211, 215, 216);
+  text-align: center;
+  height: 110px;
+  padding: 10%;
+}
+.table{
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  color: rgb(7, 20, 11);
+  border: 3px solid rgb(126, 65, 65);
+
+}
+.tbody,td{
+  border: 1px solid black;
+  
+}
+.thead{
+  border: 3px solid rgb(126, 65, 65);
+  background-color: aqua;
+  padding: 10px;
+
+}
+.editb{
+  background-color: rgb(236, 122, 40);
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  }
+  .deletb{
+    margin: 10px;
+    background-color: crimson;
+    
+    padding-left: 20px;
+  padding-right: 20px;
+  }
+  .saveb{
+    background-color: chartreuse;
+    padding: 10px;
+    padding-left: 20px;
+  padding-right: 20px;
+  }
+  .addb{
+    float: right;
+  }
+  .add{
+    padding: 10px;
+  }
+.selet{
+  background-color: blueviolet;
+  width: 100px;
+}
+/* games */
+.gamebord{
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid:auto/auto auto auto ;
+  grid-gap: 2%;
+  padding: 40px;
+}
+.gameplace{
+  background-color: rgb(211, 215, 216);
+  text-align: center;
+  padding: 10%;
+}
