@@ -37,6 +37,7 @@ const Customer = () => {
     <Popup trigger={<button className='add'><img src="https://cdn.pixabay.com/photo/2014/04/02/10/41/button-304224_1280.png" width="50px" height="50px" />
 </button>} modal>
      <AddLangvage />
+     
     </Popup>
 
     </div>

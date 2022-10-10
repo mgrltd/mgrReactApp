@@ -13,30 +13,33 @@ code {
 }
 .app{
   background-color: antiquewhite;
-  height: 880px;
-  padding: 10px;
+  padding: 1px;
 }
 .head{
-  text-align: center;
+  position: fixed;
   background-color: aqua;
-  height: 60px;
+  width: 100%;
+  height: 100px;
 }
 .body{
+  padding-top:100px ;
   background-color: azure;
   height: 750px;
   width: 100%;
 }
 .bodyleft{
-  background-color: rgb(15, 116, 69);
+  position: fixed;
+  background-color: rgb(130, 195, 165);
   float: left;
-  width: 10%;
+  width: 100px;
   height: 750px;
 }
 .bodyright{
+  padding-left: 100px;
   background-color: blanchedalmond;
   float: left;
-  width: 90%;
-  padding-bottom: 50px;
+  width: 94.6%;
+  padding-bottom: 20px;
 }
 .main{
   text-align: center;
@@ -68,6 +71,7 @@ code {
 
 }
 .tbody,td{
+  padding: 10px;
   border: 1px solid black;
   
 }
@@ -99,9 +103,6 @@ code {
   }
   .addb{
     float: right;
-  }
-  .add{
-    padding: 10px;
   }
 .selet{
   background-color: blueviolet;
