@@ -6,16 +6,12 @@ import Header from "./pages/Header"
 import Home from './pages/Home';
 import Services from './pages/Services';
 import NoService from './pages/NoService';
-import Languages from './pages/Languages';
-import Customer from './pages/Customer';
-import Pagenashan from './pages/Pagenashan';
-import Charts from './pages/Charts';
+
 import Game from './pages/Game';
-import EmpRegister from './pages/EmpRegister';
-import Login from './authentication/Login';
-import ForgetPassword from './authentication/ForgetPassword';
-import Register from './authentication/Register';
+
 import Users from './admin/Users';
+import Items from './inventory/Items';
+import Notifications from './pages/Notifications';
 function getToken() {
   const tokenString = sessionStorage.getItem('token');
   const userToken = JSON.parse(tokenString);
@@ -55,14 +51,10 @@ console.log("token -"+token)
                       <Route path='/' element={<Home />}  />
                       <Route path='/services' element={<Services />}  />
                       <Route path='' element={<NoService />}  />
-                      {/* <Route path='/allusers' element={<Users />}  /> */}
-                      <Route path='/languages' element={<Languages />}  />
-                      <Route path='/customer' element={<Customer />}  />
-                      <Route path='/pagenashan' element={<Pagenashan />}  />
-                      <Route path='/empregister' element={<EmpRegister />}  />
-                      <Route path='/charts' element={<Charts />}  />
                       <Route path='/game' element={<Game />}  />
                       <Route path='/users' element={<Users />}  />
+                      <Route path='/items' element={<Items />}  />
+                      <Route path='/notifications' element={<Notifications />}  />
 
 
                   </Routes>

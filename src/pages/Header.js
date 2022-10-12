@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         
         <div className='addb' style={{"paddingRight":"30px"}}>
-        <a href="/" > <AiFillBell style={{"fontSize":30,"paddingRight":"10px"}} />  </a>
+        <a href="/notifications" > <AiFillBell style={{"fontSize":30,"paddingRight":"10px"}} />  </a>
          {/* <form> */}
         <a onClick={logoutHandler}><AiOutlinePoweroff style={{"fontSize":30,}} /></a>    
         {/* </form> */}

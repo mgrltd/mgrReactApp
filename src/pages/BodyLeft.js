@@ -20,20 +20,6 @@ const BodyLeft = () => {
              Services 
          </a>
          <br /> <br />
-       {/*  <a href="/customer" >
-         <a style={{"fontSize":50}}><AiFillPhone /></a>
-            <br />
-             Customer 
-             
-         </a>
-         <br /> <br />
-          <a href="/pagenashan" >
-         <a style={{"fontSize":50}}><AiFillHome /></a>
-            <br />
-            pagenashan
-             
-         </a> 
-         <br /> <br />*/}
          <a href="/chsrts" >
          <a style={{"fontSize":50}}><AiFillSignal /></a>
             <br />

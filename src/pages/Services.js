@@ -14,7 +14,7 @@ const Services = () => {
          </a>
         </div>
         <div className='grid'>
-        <a href="" >
+        <a href="/items" >
         <AiOutlineDollar style={{"fontSize":"70px"}} />
 
            <br />
